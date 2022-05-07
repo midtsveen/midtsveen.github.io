@@ -1,1 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 
+:root {
+    --bg: #101010;
+    --fg: #b9b9b9;
+    --op: #525252;
+    --br: #f7f7f7;
+}
+
+html {
+    padding: 0 20px;
+}
+
+body {
+    font-family: monospace;
+    font-size: 1em;
+    line-height: 1.5;
+    margin: 20px auto;
+    max-width: 750px;
+    color: var(--fg);
+    background: var(--bg);
+}
+
+::selection {
+    color: var(--bg);
+    background: var(--fg);
+}
+
+p {
+    margin-bottom: 1em;
+    text-align: justify;
+}
+
+hr {
+    border: 0;
+    margin: 1em 0;
+    height: 1px;
+    background: var(--op);
+}
+
+a {
+    text-decoration: none;
+    color: var(--fg);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+table {
+    width: 100%;
+}
+
+thead {
+    font-weight: bold;
+}
+
+
+/* NAV |---------------------------------------------------------------------*/
+nav {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+ nav a {
+    padding: 0 10px 0 0;
+ }
