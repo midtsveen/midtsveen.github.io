@@ -1,2 +1,3 @@
 # midtsveen.github.io
-My Website
+- A website I can link people asking for a way to contact me.
+- Website includes Contact Infromation, OS Infromation, and a About Me section.
