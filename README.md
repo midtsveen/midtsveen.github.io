@@ -1,4 +1,4 @@
 # midtsveen.github.io
-- Website is often used for people looking for a way to chat with me / contact me. With this website I can link people to a place with information about me and my contact details.
-- Website was build from scratch, no website builder used, just me learing some CSS / HTML as I go.
+- The website ended up being used as a about me website, & a way for people to contact me, plus a links page for frequently used/ & or visited.
+- My website was built from scratch, no website builder used, just me with basic HTML / CSS skills.
 - I downloaded and setup GitHub desktop, and git, so less commits will come to my GitHub...
