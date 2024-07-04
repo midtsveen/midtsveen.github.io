@@ -55,6 +55,17 @@ section {
     margin-bottom: 3rem;
 }
 
+/* Links */
+a {
+    color: #333;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #000;
+}
+
 /* Footer */
 footer {
     text-align: center;
