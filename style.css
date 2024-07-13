@@ -27,6 +27,11 @@ p {
     margin-bottom: 1rem;
 }
 
+p2 {
+    font-style: italic;
+    font-family: "Garamond", serif;
+}
+
 /* Layout */
 header, main, footer {
     padding: 2rem;
