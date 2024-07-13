@@ -14,6 +14,7 @@ body {
     content: "This webpage has been viewed " counter(pageviews) " times";
     font-style: italic;
     font-family: "Garamond", serif;
+    counter-increment: pageviews;
   }
 
 /* Typography */
