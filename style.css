@@ -6,7 +6,15 @@ body {
     background-color: #f9f9f9;
     margin: 0;
     padding: 0;
+    counter-reset: pageviews;
+    counter-increment: pageviews;
 }
+
+.pageview-counter::before {
+    content: "This webpage has been viewed " counter(pageviews) " times";
+    font-style: italic;
+    font-family: "Garamond", serif;
+  }
 
 /* Typography */
 h1, h2 {
