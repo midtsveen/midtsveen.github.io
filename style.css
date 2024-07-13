@@ -8,11 +8,6 @@ body {
     padding: 0;
 }
 
-.pageview-counter {
-    font-style: italic;
-    font-family: "Garamond", serif;
-  }
-
 /* Typography */
 h1, h2 {
     color: #222;
