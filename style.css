@@ -2,15 +2,15 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    color: #f0f0f0;
-    background-color: #1b1b1b ;
+    color: #333;
+    background-color: #f9f9f9;
     margin: 0;
     padding: 0;
 }
 
 /* Typography */
 h1, h2 {
-    color: #ffffff;
+    color: #222;
 }
 
 h1 {
@@ -30,7 +30,6 @@ p {
 p2 {
     font-style: italic;
     font-family: "Garamond", serif;
-    color: #cccccc;
 }
 
 /* Layout */
@@ -46,31 +45,36 @@ nav {
 }
 
 nav a {
-    color: #f0f0f0;
+    color: #333;
     text-decoration: none;
     margin-right: 1rem;
     transition: color 0.3s ease;
 }
 
 nav a:hover {
-    color: #ffffff;
+    color: #000;
+}
+
+/* Sections */
+section {
+    margin-bottom: 3rem;
 }
 
 /* Links */
 a {
-    color: #f0f0f0;
+    color: #333;
     text-decoration: underline;
     transition: color 0.3s ease;
 }
 
 a:hover {
-    color: #ffffff;
+    color: #000;
 }
 
 /* Footer */
 footer {
     text-align: center;
-    color: #888888;
+    color: #777;
     font-size: 0.9rem;
 }
 
@@ -78,10 +82,6 @@ footer {
 code {
     max-width: 100%;
     word-wrap: break-word;
-    background-color: #1f1f1f;
-    color: #e0e0e0;
-    padding: 0.2em 0.4em;
-    border-radius: 3px;
 }
 
 /* Responsive design */
