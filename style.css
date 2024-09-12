@@ -42,6 +42,7 @@ header, main, footer {
 /* Navigation (Social Links) */
 nav {
     margin-top: 1rem;
+    flex-wrap: wrap;
 }
 
 nav a {
