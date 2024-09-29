@@ -43,6 +43,27 @@ header {
     border-radius: 15px;
 }
 
+nav {
+    padding: 1rem; 
+    border-radius: 15px; 
+    text-align: center;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none; 
+    margin: 0.5rem; 
+    display: inline-block; 
+    padding: 0.5rem 1rem; 
+    border: 2px solid #7b2437; 
+    border-radius: 10px; 
+    transition: background-color 0.3s ease; 
+}
+
+nav a:hover {
+    background-color: #7b2437; 
+}
+
 main {
     padding: 2rem;
     max-width: 800px; 
@@ -105,6 +126,29 @@ code {
        padding: 1rem; 
        border-width: 3px;
    }
+
+   nav {
+    margin-top: 0rem;
+    font-size: 0.9rem;
+    padding: 1rem; 
+    border-radius: 15px; 
+    text-align: center;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none; 
+    margin: 0.5rem; 
+    display: inline-block; 
+    padding: 0.5rem 1rem; 
+    border: 2px solid #7b2437; 
+    border-radius: 10px; 
+    transition: background-color 0.3s ease; 
+}
+
+nav a:hover {
+    background-color: #7b2437; 
+}
    
    code {
        font-size: 0.8rem; 
