@@ -25,6 +25,12 @@ h2 {
     text-align: left;
 }
 
+h3 {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    text-align: center;
+}
+
 p {
     margin-bottom: 0rem;
     font-size: 1.2rem;
@@ -114,6 +120,13 @@ code {
        font-size: 1.5rem; 
        text-align:left; 
    }
+
+   h3 {
+    font-size: 1rem; 
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    text-align: center;
+}
 
    p  {
     font-size: 0.9rem;
