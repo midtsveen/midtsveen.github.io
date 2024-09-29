@@ -2,7 +2,7 @@ body {
     font-family: 'Trebuchet MS', cursive, sans-serif;
     line-height: 1.6;
     color: #fff;
-    background-image: url('https://preview.redd.it/very-early-in-designing-my-pirate-platformer-v0-xehhuobchce91.gif?width=384&auto=webp&s=8706491db01939486208d7e9f3a371f2b4fcb04b');
+    background-image: url('Pirate.gif');
     background-size: repeat;
     margin: 0;
     padding: 0;
@@ -104,11 +104,6 @@ code {
    header, footer {
        padding: 1rem; 
        border-width: 3px;
-   }
-
-   nav a {
-       margin-right: 0.5rem; 
-       font-size: larger; 
    }
    
    code {
