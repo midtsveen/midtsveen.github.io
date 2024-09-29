@@ -14,7 +14,7 @@ h1, h2 {
 
 h1 {
     font-size: 3rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0rem;
     text-align: center;
     font-family: 'Pirata One', cursive;
 }
@@ -26,6 +26,13 @@ h2 {
 }
 
 h3 {
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+h4 {
+    font-size: 1.2rem;
     margin-top: 0rem;
     margin-bottom: 0rem;
     text-align: center;
@@ -122,6 +129,13 @@ code {
    }
 
    h3 {
+    font-size: 1rem; 
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    text-align: center;
+}
+
+   h4 {
     font-size: 1rem; 
     margin-top: 0rem;
     margin-bottom: 0rem;
