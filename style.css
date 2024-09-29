@@ -13,14 +13,14 @@ h1, h2 {
 }
 
 h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     margin-bottom: 1rem;
     text-align: center;
     font-family: 'Pirata One', cursive;
 }
 
 h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-top: 1rem;
     text-align: left;
 }
@@ -86,13 +86,11 @@ code {
    h1 {
        font-size: 2rem; 
        text-align:center; 
-       font-family:'Pirata One', cursive; 
    }
 
    h2 {
        font-size: 1.5rem; 
        text-align:left; 
-       font-family:'Pirata One', cursive; 
    }
 
    p  {
