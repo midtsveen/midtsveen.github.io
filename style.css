@@ -1,184 +1,117 @@
 body {
-    font-family: 'Trebuchet MS', 'Helvetica', 'Arial', sans-serif;
+    font-family: Arial, sans-serif;
     line-height: 1.6;
-    color: #fff;
-    background-image: url('computer.gif');
-    background-size: auto;
+    color: #333;
+    background-color: #f9f9f9;
     margin: 0;
     padding: 0;
 }
 
+
 h1, h2 {
-    text-shadow: 3px 3px #000;
+    color: #222;
 }
 
 h1 {
-    font-size: 3rem;
-    margin-bottom: 0rem;
-    text-align: center;
-    font-family: 'Pirata One', cursive;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
 }
 
 h2 {
-    font-size: 2.3rem;
-    margin-top: 0rem;
-    text-align: left;
-}
-
-h3 {
-    margin-top: 0rem;
-    margin-bottom: 1rem;
-    text-align: center;
-}
-
-h4 {
-    font-size: 1.2rem;
-    margin-top: 0rem;
-    margin-bottom: 0rem;
-    text-align: center;
+    font-size: 2rem;
+    margin-top: 2rem;
 }
 
 p {
-    margin-bottom: 0rem;
-    font-size: 1.2rem;
+    margin-bottom: 1rem;
 }
 
-li {
-    font-size: 1.2rem;
+p2 {
+    font-style: italic;
+    font-family: "Garamond", serif;
 }
 
-header {
+
+header, main, footer {
     padding: 2rem;
     max-width: 800px;
-    margin: 2rem auto;
-    border: 3px solid #ad4c3c;
-    background-color: rgba(0, 0, 0, 0.7);
-    border-radius: 15px;
+    margin: 0 auto;
 }
 
 nav {
-    padding: 1rem; 
-    border-radius: 15px; 
-    text-align: center;
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 500px;
 }
 
 nav a {
-    color: #ffffff;
-    text-decoration: none; 
-    margin: 0.5rem; 
-    display: inline-block; 
-    padding: 0.5rem 1rem; 
-    border: 2px solid #ad4c3c; 
-    border-radius: 10px; 
-    transition: background-color 0.3s ease; 
+    color: #333;
+    text-decoration: none;
+    margin-right: 1rem;
+    transition: color 0.3s ease;
 }
 
 nav a:hover {
-    background-color: #ad4c3c; 
+    color: #000;
 }
 
-main {
-    padding: 2rem;
-    max-width: 800px; 
-    margin: 2rem auto; 
-    border: 3px solid #ad4c3c; 
-    background-color: rgba(0, 0, 0, 0.7);
-    border-radius: 15px; 
-}
-
-footer {
-    padding: 2rem; 
-    max-width: 800px; 
-    margin: 0 auto; 
-    border: 3px solid #ad4c3c;
-    background-color: rgba(0, 0, 0, 0.7);
-    border-radius: 15px; 
-    text-align: left; 
-    color: #fff; 
-    font-size: 1rem; 
-}
 
 section {
-    margin-bottom: 1rem; 
+    margin-bottom: 3rem;
 }
 
+
 a {
-    color: #ffffff;
-    text-decoration: underline wavy white; 
+    color: #333;
+    text-decoration: underline;
+    transition: color 0.3s ease;
 }
 
 a:hover {
-    color: #fff; 
+    color: #000;
 }
+
+
+footer {
+    text-align: center;
+    color: #777;
+    font-size: 0.9rem;
+}
+
 
 code {
-    max-width: 100%; 
-    word-wrap: break-word; 
-    font-size: 1rem;
+    max-width: 100%;
+    word-wrap: break-word;
 }
+
 
 @media (max-width: 600px) {
-   h1 {
-       font-size: 2rem; 
-       text-align:center; 
-   }
+    body {
+        font-size: 16px;
+    }
+    
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+    }
 
-   h2 {
-       font-size: 1.5rem; 
-       text-align:left; 
-   }
+    h1 {
+        font-size: 2rem;
+    }
 
-   h3 {
-    font-size: 1rem; 
-    margin-top: 0rem;
-    margin-bottom: 1rem;
-    text-align: center;
-}
+    h2 {
+        font-size: 1.5rem;
+    }
 
-   h4 {
-    font-size: 1rem; 
-    margin-top: 0rem;
-    margin-bottom: 0rem;
-    text-align: center;
-}
+    header, main, footer {
+        padding: 1rem;
+    }
 
-   p  {
-    font-size: 0.9rem;
-   }
-
-   li {
-    font-size: 0.9rem;
-}
-
-   header, footer {
-       padding: 1rem; 
-       border-width: 3px;
-   }
-
-   nav {
-    margin-top: 0rem;
-    font-size: 0.9rem;
-    padding: 1rem; 
-    border-radius: 15px; 
-    text-align: center;
-}
-
-nav a {
-    color: #ffffff;
-    text-decoration: none; 
-    margin: 0.5rem; 
-    display: inline-block; 
-    padding: 0.5rem 1rem; 
-    border: 2px solid #ad4c3c; 
-    border-radius: 10px; 
-    transition: background-color 0.3s ease; 
-}
-
-nav a:hover {
-    background-color: #ad4c3c; 
-}
-   
-   code {
-       font-size: 0.8rem; 
-   }
+    nav a {
+        margin-right: 0.5rem;
+    }
+    code {
+        font-size: 0.8rem;
+      }
 }
