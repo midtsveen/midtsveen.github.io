@@ -2,8 +2,8 @@ body {
     font-family: 'Trebuchet MS', 'Helvetica', 'Arial', sans-serif;
     line-height: 1.6;
     color: #fff;
-    background-image: url('Pirate.gif');
-    background-size: repeat;
+    background-image: url('computer.gif');
+    background-size: auto;
     margin: 0;
     padding: 0;
 }
@@ -51,7 +51,7 @@ header {
     padding: 2rem;
     max-width: 800px;
     margin: 2rem auto;
-    border: 3px solid #7b2437;
+    border: 3px solid #ad4c3c;
     background-color: rgba(0, 0, 0, 0.7);
     border-radius: 15px;
 }
@@ -68,20 +68,20 @@ nav a {
     margin: 0.5rem; 
     display: inline-block; 
     padding: 0.5rem 1rem; 
-    border: 2px solid #7b2437; 
+    border: 2px solid #ad4c3c; 
     border-radius: 10px; 
     transition: background-color 0.3s ease; 
 }
 
 nav a:hover {
-    background-color: #7b2437; 
+    background-color: #ad4c3c; 
 }
 
 main {
     padding: 2rem;
     max-width: 800px; 
     margin: 2rem auto; 
-    border: 3px solid #7b2437; 
+    border: 3px solid #ad4c3c; 
     background-color: rgba(0, 0, 0, 0.7);
     border-radius: 15px; 
 }
@@ -90,7 +90,7 @@ footer {
     padding: 2rem; 
     max-width: 800px; 
     margin: 0 auto; 
-    border: 3px solid #7b2437;
+    border: 3px solid #ad4c3c;
     background-color: rgba(0, 0, 0, 0.7);
     border-radius: 15px; 
     text-align: left; 
@@ -169,13 +169,13 @@ nav a {
     margin: 0.5rem; 
     display: inline-block; 
     padding: 0.5rem 1rem; 
-    border: 2px solid #7b2437; 
+    border: 2px solid #ad4c3c; 
     border-radius: 10px; 
     transition: background-color 0.3s ease; 
 }
 
 nav a:hover {
-    background-color: #7b2437; 
+    background-color: #ad4c3c; 
 }
    
    code {
