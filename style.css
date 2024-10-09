@@ -24,7 +24,7 @@ h2 a {
     text-decoration: none;
     color: #222;
     border-bottom: 2px solid transparent;
-    transition: border-color 0.5s
+    transition: border-color 0.7s
 }
 
 h2 a:hover {
