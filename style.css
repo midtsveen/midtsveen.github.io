@@ -99,20 +99,16 @@ code {
 
 
 @media (max-width: 600px) {
-    body {
-        font-size: 16px;
-    }
-    
     nav {
         display: flex;
         flex-wrap: wrap;
     }
 
-    header, main, footer {
-        padding: 1rem;
-    }
-
     nav a {
         margin-right: 0.5rem;
+    }
+
+    header, main, footer {
+        padding: 1rem;
     }
 }
