@@ -22,6 +22,14 @@ h2 {
     margin-top: 1rem;
 }
 
+h2 a {
+    text-decoration: none;
+}
+
+h2 a:hover {
+    text-decoration: underline;
+}
+
 p {
     margin-bottom: 1rem;
 }
