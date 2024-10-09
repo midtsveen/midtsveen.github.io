@@ -52,7 +52,7 @@ nav {
     margin-top: 1rem;
     display: flex;
     flex-wrap: wrap;
-    max-width: 500px;
+    max-width: 450px;
 }
 
 nav a {
