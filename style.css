@@ -7,6 +7,13 @@ body {
     padding: 0;
 }
 
+#header-img {
+    width: 50px;
+    margin-right: 13px;
+    vertical-align: middle;
+    margin-bottom: 5px;
+    border-radius: 50%;
+}
 
 h1, h2 {
     color: #222;
