@@ -86,9 +86,9 @@ footer p a:hover {
     text-decoration: underline; /* Underline on hover for footer links */
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
     body {
-        padding: 0 1rem; 
+        padding: 0.1rem; 
         max-width: calc(100% - 2rem);
     }
 }
