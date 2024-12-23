@@ -73,7 +73,7 @@ li {
 }
 
 footer {
-    text-align: center;
+    margin-top: -5rem;
     color: #777;
     font-size: 0.9rem;
 }
