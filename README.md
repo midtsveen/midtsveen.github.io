@@ -24,6 +24,7 @@ This repository contains the following files:
 - **SignalGroupQr.png**: An image of my Signal username and QR code for contact.
 - **duck.gif**: A fun GIF of a spinning duck.
 - **favicon.ico**: The favicon for the website.
+- **[pmarg@anche.no.asc](https://midtsveen.github.io/email.html)**: My PGP public key for secure communication.
 
 ## License
 
