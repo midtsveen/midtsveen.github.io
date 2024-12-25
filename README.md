@@ -32,4 +32,4 @@ This project is licensed under the GNU General Public License v3.0. You are free
 
 ## Contact
 
-For any inquiries, please reach out via [Email](https://midtsveen.github.io/email.html) or [Signal](https://midtsveen.github.io/SignalGroupQr-png).
+For any inquiries, please reach out via [Email](https://midtsveen.github.io/email.html) or [Signal](https://midtsveen.github.io/SignalGroupQr.png).
