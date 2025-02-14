@@ -73,13 +73,13 @@ section p {
 }
 
 a {
-    color: #66aaff;
+    color: #e0e0e0;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 a:hover {
-    color: #5fa2ff;
+    color: #f9f9f9;
     text-decoration: underline;
 }
 
