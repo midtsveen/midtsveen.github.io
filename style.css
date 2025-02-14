@@ -1,56 +1,72 @@
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.7;
     color: #f9f9f9;
-    background-color: #1A1F24;
+    background-color: #1A1F24; 
     margin: 0;
-    padding: 0 4rem;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
-header, main, footer {
+header {
+    background-color: #232931;
     padding: 2rem;
-    margin: 0 auto;
+    text-align: center;
+    border-bottom: 1px solid #343a40;
 }
 
-h1 {
-    color: #e0e0e0;
+header img.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
     margin-bottom: 1rem;
+    border: 5px solid #343a40;
 }
 
-h2 {
+header h1 {
     color: #e0e0e0;
-    margin-top: 1rem;
     margin-bottom: 0.5rem;
-    border-bottom: 1.5px solid #555;
 }
 
-nav {
-    margin-top: 1rem;
-    margin-bottom: -2rem;
-}
-
-nav a {
+header nav a {
     color: #66aaff;
     text-decoration: none;
-    margin-right: 0.3rem;
-    margin-left: 0.3rem;
+    margin: 0 0.5rem;
+    font-size: 0.9rem;
 }
 
-nav a:first-child {
-    margin-left: 0;
-}
-
-nav a:hover {
+header nav a:hover {
     text-decoration: underline;
+}
+
+main {
+    padding: 2rem;
+    flex: 1;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 section {
     margin-bottom: 3rem;
-    max-width: 550px;
+    background-color: #232931; 
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-p {
+section h2 {
+    color: #e0e0e0;
+    border-bottom: 2px solid #343a40; 
+    padding-bottom: 0.5rem;
     margin-bottom: 1rem;
+}
+
+section p {
+    color: #bbb;
+    margin-bottom: 1.2rem;
 }
 
 a {
@@ -60,35 +76,47 @@ a {
 }
 
 a:hover {
-    text-decoration: underline; 
+    color: #5fa2ff;
+    text-decoration: underline;
 }
 
 ul {
-    list-style-type: none;
-    padding-left: 0;
+    list-style: none;
+    padding: 0;
 }
 
 li {
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.7rem;
 }
 
 footer {
-    margin-top: -5rem;
-    color: #bbb;
-    font-size: 0.9rem;
+    background-color: #232931;
+    text-align: center;
+    padding: 1rem;
+    border-top: 1px solid #343a40;
+    color: #bbb; 
+    font-size: 0.8rem;
 }
 
-footer p a {
-    color: #66aaff; 
-}
-
-footer p a:hover {
-    text-decoration: underline; 
-}
-
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     body {
-        padding: 0rem; 
-        margin-top: -1rem;
+        padding: 0;
+    }
+
+    header {
+        padding: 1rem;
+    }
+
+    header img.profile-image {
+        width: 100px;
+        height: 100px;
+    }
+
+    main {
+        padding: 1rem;
+    }
+
+    section {
+        padding: 1rem;
     }
 }
