@@ -31,10 +31,13 @@ header h1 {
     margin-bottom: 0.5rem;
 }
 
+header p {
+    font-size: 0.9rem;
+}
+
 header nav a {
     color: #f9f9f9;
     text-decoration: none;
-    font-size: 0.9rem;
 }
 
 header nav a:hover {
