@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spinning Duck Shrine</title>
+    <style>
+        * {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+        }
+
+        body {
+            background-image: url('duck.gif');
+            background-size: 70px 70px;
+            background-position: center;
+            background-repeat: repeat;
+            height: 100vh;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .duck-shrine {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 300px;
+            height: 200px;
+        }
+
+        .spinning-duck {
+            width: 150px;
+            height: auto;
+            animation: spin 10s linear infinite;
+        }
+
+        .spinning-text {
+            font-size: 32px;
+            color: #00ccff;
+            text-shadow:
+                2px 2px 4px #000000,
+                -2px -2px 4px #ff0000,
+                4px 4px 8px #00ff00,
+                -4px -4px 8px #0000ff;
+            animation: spin 60s linear infinite;
+        }
+
+        .spinning-text:hover {
+            color: #ff99cc;
+        }
+
+        @keyframes spin {
+            to {
+                transform: rotate(1turn);
+            }
+        }
+
+        @media (max-width: 768px) {
+            body {
+                flex-direction: column;
+            }
+            .duck-shrine {
+                width: 100vw;
+                height: 200px;
+            }
+            .spinning-duck {
+                width: 175px;
+            }
+            .spinning-text {
+                font-size: 34px;
+                max-width: 90vw;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="duck-shrine">
+        <img src="duck.gif" alt="Quack Quack" class="spinning-duck">
+    </div>
+    <a href="https://www.youtube.com/watch?v=lknzALc0NeA" class="spinning-text" target="_blank">
+        DUCK SPINNING TO GEOMETRY DASH - DON'T TRY THIS AT HOME
+    </a>
+    <div class="duck-shrine">
+        <img src="duck.gif" alt="Quack Quack" class="spinning-duck">
+    </div>
+</body>
+</html>
