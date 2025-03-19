@@ -58,18 +58,20 @@
         @media (max-width: 768px) {
             body {
                 flex-direction: column;
+                align-items: center;
+                touch-action: pan-y; 
             }
             .duck-shrine {
                 width: 100vw;
                 height: 200px;
+                justify-content: center;
             }
             .spinning-duck {
                 width: 175px;
             }
             .spinning-text {
                 font-size: 34px;
-                max-width: 90vw;
-                text-align: center;
+                white-space: nowrap;
             }
         }
     </style>
